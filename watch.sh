@@ -50,7 +50,7 @@ else
   fi
 
   reasons=()
-  if [[ "$off" != '["plushie","stickers"]' ]]; then
+ if [[ "$off" != '["boo","plushie","stickers"]' ]]; then
     reasons+=("swag-status.json changed: $off")
   fi
 
